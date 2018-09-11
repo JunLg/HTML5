@@ -1,0 +1,31 @@
+*{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+
+div.wrap>.main{width:100%;height:auto;margin:20px 0px;}
+div.wrap>.main>img{width:100%;display:block;}
+
+div.wrap>.main>.news{width:1170px;height:774px;margin:50px auto;}
+div.wrap>.main>.news>.row{width:880px;height:774px;float:left;}
+div.wrap>.main>.news>.row>ul>li{width:100%;height:160px;border-bottom:2px solid #ccc;padding-top:30px;}
+div.wrap>.main>.news>.row>ul>li>.left{width:180px;height:160px;float:left;}
+div.wrap>.main>.news>.row>ul>li>.left>img{width:100%;}
+div.wrap>.main>.news>.row>ul>li>.right{width:650px;height:160px;margin-left:20px;float:right;}
+div.wrap>.main>.news>.row>ul>li>.right>a{font-size:22px;color:#a39c9c;margin-bottom:18px;display:block;}
+div.wrap>.main>.news>.row>ul>li>.right>p{font-size:14px;margin:10px 0px;}
+div.wrap>.main>.news>.row>ul>li>.right>p.proto{margin-top:10px;}
+div.wrap>.main>.news>.row>ul>li>.right>p.proto>.one{display:inline-block;width:14px;height:14px;background:url(../image/修改密码-小眼睛.png) no-repeat center center/14px 14px;}
+
+div.wrap>.main>.news>.search{width:250px;height:774px;float:right;margin-left:30px;}
+div.wrap>.main>.news>.search>a{display:block;width:100%;height:50px;border-bottom:1px solid #ccc;font-size:24px;color:#a39c9c;margin-top:30px;}
+div.wrap>.main>.news>.search>a>input{width:200px;height:30px;border-radius:10px;background:url(../image/搜索.png) no-repeat 170px center/20px 20px;}
+div.wrap>.main>.news>.search>h3{margin:20px 0px;color:#a39c9c;}
+div.wrap>.main>.news>.search>ul{width:230px;padding:10px;}
+div.wrap>.main>.news>.search>ul>li{width:230px;height:90px;border:1px solid #ccc;text-align:center;}
+div.wrap>.main>.news>.search>ul>li>a{display:block;font-size:14px;color:#a39c9c;padding:30px 10px;}
+
+div.wrap>.main>.btn{width:500px;height:40px;margin:0 auto;text-align:center;line-height:40px;color:#a39c9c;position:relative;}
+div.wrap>.main>.btn>.pres{display:inline-block;width:70px;height:40px;border:1px solid #ccc;color:#a39c9c;}
+div.wrap>.main>.btn>.two{display:inline-block;width:40px;height:40px;background:black;color:white;}
+div.wrap>.main>.btn>.next{display:inline-block;width:70px;height:40px;border:1px solid #ccc;color:#a39c9c;}
+div.wrap>.main>.btn>.aout{display:block;width:150px;height:40px;font-size:18px;border:1px solid #ccc;position:absolute;top:0;right:0;display:none;color:black;}

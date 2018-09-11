@@ -1,0 +1,28 @@
+*{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+/*网页的头部样式的开始*/
+.wrap>.header{width:100%;height:140px;/*position:fixed;*/}
+.wrap>.header>.tip{width:100%;height:140px;position:fixed;background:white;z-index:999;}
+.wrap>.header>.tip>.navImage{width:250px;height:80px;margin:5px auto;}
+.wrap>.header>.tip>.banner{width:350px;height:30px;margin:0 auto;}
+.wrap>.header>.tip>.banner>ul{width:400px;height:30px;text-align:center;line-height:30px;}
+.wrap>.header>.tip>.banner>ul>li{float:left;margin:0px 15px;}
+.wrap>.header>.tip>.banner>ul>li>a{display:block;height:30px;color:#a39c9c;font-size:16px}
+/*网页的头部样式的结束*/
+
+/*网页的尾部样式的开始*/
+.wrap>.footer{width:100%;height:auto;background:#dfdfdf;font-size:14px;}
+.wrap>.footer>.image{width:250px;height:80px;margin:10px auto;}
+.wrap>.footer>.little{width:300px;height:30px;margin:20px auto;text-align:center;position:relative;}
+.wrap>.footer>.little>span{display:inline-block;width:30px;height:30px;margin:0px 20px;}
+.wrap>.footer>.little>span.one{background:url(../image/微信.png) no-repeat center center/30px 30px;}
+.wrap>.footer>.little>span.one>div{width:100px;height:100px;background:url(../image/1522375530.png) no-repeat center center/100px 100px;position:absolute;top:-100px;left:25px;z-index:99;display:none;}
+.wrap>.footer>.little>span.two{background:url(../image/QQ.png) no-repeat center center/30px 30px;}
+.wrap>.footer>.little>span.three{background:url(../image/微博.png) no-repeat center center/30px 30px;}
+.wrap>.footer>p{text-align:center;margin-top:8px;}
+/*网页的尾部样式的结束*/
+
+.back{width:100px;height:30px;background:black;line-height:30px;bottom:10px;right:10px;position:fixed;z-index:99;display:none;border:1px solid transform;}
+.back>a{color:white;display:block;height:30px;width:100px;background:url(../image/1.png) no-repeat 80px center/18px 18px;padding-left:10px;}
+.back>.active{color:black;background:url(../image/2.png) no-repeat 80px center/18px 18px;display:block;height:30px;width:100px;}

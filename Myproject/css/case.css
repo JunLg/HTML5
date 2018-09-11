@@ -1,0 +1,64 @@
+*{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+
+div.wrap>.main{width:100%;height:auto;}
+div.wrap>.main>img{width:100%;display:block;}
+
+div.wrap>.main>.banner{width:100%;}
+div.wrap>.main>.banner>ul{width:780px;text-align:center;height:40px;line-height:40px;margin:20px auto;}
+div.wrap>.main>.banner>ul>li{float:left;margin:0px 20px;}
+div.wrap>.main>.banner>ul>li>a{color:#a39c9c;font:20px 宋体;}
+div.wrap>.main>.banner>ul>li>.active{color:black;}
+
+
+div.wrap>.main>.all>.decs{width:1319px;height:740px;margin:20px auto;overflow:hidden;}
+div.wrap>.main>.all>.decs>div{width:263.8px;height:360px;float:left;margin:10px 0px;position:relative;}
+div.wrap>.main>.all>.decs>div>img{width:263.8px;position:absolute;}
+div.wrap>.main>.all>.decs>div>p{position:absolute;top:270px;text-align:center;width:200px;margin:0px 30px;}
+div.wrap>.main>.all>.decs>div>span{position:absolute;top:300px;display:block;width:160px;height:30px;margin:0px 50px;text-align:center;line-height:30px;background:black;color:white;}
+div.wrap>.main>.all>.more{width:200px;height:40px;background:black;color:white;margin:60px auto;text-align:center;line-height:40px}
+
+div.wrap>.main>.VI{width:1319px;height:350px;margin:20px auto;overflow:hidden;display:none;}
+div.wrap>.main>.VI>div{width:263.8px;height:360px;float:left;margin:10px 0px;position:relative;}
+div.wrap>.main>.VI>div>img{width:263.8px;position:absolute;}
+div.wrap>.main>.VI>div>p{position:absolute;top:270px;text-align:center;width:200px;margin:0px 30px;}
+div.wrap>.main>.VI>div>span{position:absolute;top:300px;display:block;width:160px;height:30px;margin:0px 50px;text-align:center;line-height:30px;background:black;color:white;}
+
+div.wrap>.main>.art{width:1319px;height:350px;margin:20px auto;overflow:hidden;display:none;}
+div.wrap>.main>.art>div{width:263.8px;height:360px;float:left;margin:10px 0px;position:relative;}
+div.wrap>.main>.art>div>img{width:263.8px;position:absolute;}
+div.wrap>.main>.art>div>p{position:absolute;top:270px;text-align:center;width:200px;margin:0px 30px;}
+div.wrap>.main>.art>div>span{position:absolute;top:300px;display:block;width:160px;height:30px;margin:0px 50px;text-align:center;line-height:30px;background:black;color:white;}
+
+div.wrap>.main>.package{width:1319px;height:350px;margin:20px auto;overflow:hidden;display:none;}
+div.wrap>.main>.package>div{width:263.8px;height:360px;float:left;margin:10px 0px;position:relative;}
+div.wrap>.main>.package>div>img{width:263.8px;position:absolute;}
+div.wrap>.main>.package>div>p{position:absolute;top:270px;text-align:center;width:200px;margin:0px 30px;}
+div.wrap>.main>.package>div>span{position:absolute;top:300px;display:block;width:160px;height:30px;margin:0px 50px;text-align:center;line-height:30px;background:black;color:white;}
+
+.detail{width:100%;height:auto;display:none;}
+.detail>.banner{width:1170px;margin:10px auto;}
+.detail>.banner>a{display:inline-block;width:auto;height:30px;color:#a39c9c;margin:0px 5px;}
+.detail>.banner>a:first-child{padding-left:25px;background:url(../image/home.png) no-repeat 0 0/20px 20px;}
+
+.detail>.nav{width:1349px;height:40px;line-height:40px;margin:10px auto;}
+.detail>.nav>h3{width:300px;float:left;margin-left:95px;}
+.detail>.nav>a{margin-right:90px;width:auto;float:right;height:38px;line-height:38px;border-bottom:2px solid black;color:#a39c9c;}
+
+.detail>.silde{width:1170px;height:auto;margin:80px auto;position:relative;}
+.detail>.silde>.img{width:1170px;height:300px;margin:0 auto;}
+.detail>.silde>.img>li{display:none;}
+.detail>.silde>.img>li>a>img{width:960px;height:300px;display:block;margin:0px 105px;}
+
+.detail>.silde>.ceil{width:308px;height:64px;margin:30px auto;}
+.detail>.silde>.ceil>li{float:left;margin:0 20px;width:60px;height:60px;border:2px solid transparent;}
+.detail>.silde>.ceil>li>img{width:100%;}
+
+.detail>.silde>a{color:black;display:block;position:absolute;top:0;width:80px;height:300px;background:transparent;font:bolder 60px 宋体;text-align:center;line-height:300px;display:none;}
+.detail>.silde>.pres{left:0;}
+.detail>.silde>.next{right:0;}
+
+.detail>.decs{width:1170px;height:auto;margin:0px auto;display:block;}
+.detail>.decs>h2{margin:20px 0px;font:bold 28px 宋体;}
+.detail>.decs>p{margin-bottom:150px;padding:18px;text-indent:2em;font:20px 楷体;}

@@ -1,0 +1,46 @@
+*{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+
+div.wrap>.main{width:100%;height:auto;margin:20px 0px;}
+div.wrap>.main>img{width:100%;display:block;}
+
+div.wrap>.main>.banner{width:100%;}
+div.wrap>.main>.banner>ul{width:375px;text-align:center;height:40px;line-height:40px;margin:20px auto;}
+div.wrap>.main>.banner>ul>li{float:left;margin:0px 20px;}
+div.wrap>.main>.banner>ul>li>a{color:#a39c9c;font-size:24px;}
+div.wrap>.main>.banner>ul>li>.active{color:black;}
+
+div.wrap>.main>.about{width:1143px;height:auto;margin:30px auto;}
+div.wrap>.main>.about>div{width:1143px;height:auto;border-bottom:1px dashed #a39c9c;}
+div.wrap>.main>.about>div>h2{text-align:center;margin:0 auto;margin:50px 0px;}
+div.wrap>.main>.about>div>p{text-align:center;margin:0 auto;margin:20px 0px;}
+div.wrap>.main>.about>.proto{width:1143px;margin:40px auto;}
+
+div.wrap>.main>.history{width:1143px;height:auto;margin:30px auto;display:none;}
+div.wrap>.main>.history>.one{width:1143px;height:auto;}
+div.wrap>.main>.history>.one>h2{text-align:center;margin:0 auto;margin:50px 0px;}
+div.wrap>.main>.history>.one>p{text-align:center;margin:0 auto;margin:20px 0px;}
+div.wrap>.main>.history>.one>img{margin:30px 121.5px;}
+
+div.wrap>.main>.history>.data{width:1141px;border:1px solid #ccc;height:830px;margin:40px auto;background:#e8f5fa;}
+div.wrap>.main>.history>.data>div{float:left;}
+div.wrap>.main>.history>.data>div>h3{margin:20px 10px;}
+div.wrap>.main>.history>.data>div>p{margin:40px 20px;font-size:14px;}
+div.wrap>.main>.history>.data>.one{width:316px;height:830px;border-right:1px solid #ccc;}
+div.wrap>.main>.history>.data>.one>img{width:218px;margin:40px 49px;}
+div.wrap>.main>.history>.data>.two{width:507px;height:830px;border-right:1px solid #ccc;}
+div.wrap>.main>.history>.data>.two>img{width:380px;margin:10px 63.5px;}
+div.wrap>.main>.history>.data>.three{width:316px;height:830px;}
+div.wrap>.main>.history>.data>.three>img{width:218px;margin:40px 49px;}
+
+div.wrap>.main>.team{width:1143px;height:auto;margin:50px auto;display:none;}
+div.wrap>.main>.team>.about{width:1143px;height:auto;margin:30px auto;border-bottom:1px dashed #a39c9c;}
+div.wrap>.main>.team>.about>h2{text-align:center;margin:0 auto;margin:50px 0px;}
+div.wrap>.main>.team>.about>p{text-align:center;margin:0 auto;margin:20px 0px;}
+
+
+div.wrap>.main>.team>.team{width:786px;height:300px;margin:30px auto;}
+div.wrap>.main>.team>.team>div{width:200px;height:300px;float:left;margin:0px 30px;border:1px solid #ccc;}
+div.wrap>.main>.team>.team>div>img{width:200px;}
+div.wrap>.main>.team>.team>div>p{text-align:center;margin:10px 0px;font-size:14px;color:#a39c9c;}

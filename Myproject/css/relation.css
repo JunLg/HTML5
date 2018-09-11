@@ -1,0 +1,13 @@
+*{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+
+div.wrap>.main{width:100%;height:auto;margin:30px 0px;}
+div.wrap>.main>img{width:100%;display:block;}
+
+div.wrap>.main>.infor{width:1142px;height:334px;border:1px solid #ccc;margin:30px auto;}
+div.wrap>.main>.infor>.left{float:left;width:566px;height:334px;border-right:1px solid #ccc;}
+div.wrap>.main>.infor>.left>img{width:556px;margin:5px;}
+div.wrap>.main>.infor>.right{float:right;width:546px;height:314px;padding:10px;}
+div.wrap>.main>.infor>.right>h3{margin-bottom:50px;color:red;}
+div.wrap>.main>.infor>.right>p{margin:8px 0px;color:#a39c9c;}
